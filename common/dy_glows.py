@@ -95,7 +95,7 @@ def go_room():
     chrome_options.add_argument('--headless')  # 无界面
     driver = webdriver.Chrome(executable_path=driver_path, options=chrome_options)
     logger.info("打开直播间")
-    driver.get('https://www.douyu.com/8291425')
+    driver.get('https://www.douyu.com/171717')
     dy_cookie = set_cookie(dyreq.cookie)
     for i in dy_cookie.keys():
         mycookie = {
